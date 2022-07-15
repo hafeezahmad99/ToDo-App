@@ -1,0 +1,102 @@
+/*general */
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(65, 22, 65);
+  color: white;
+}
+
+.heading {
+  margin: 4rem 0;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  /* background-color: rgb(207, 76, 207); */
+  max-width: 500px;
+}
+
+.search-input,
+.add-input,
+.todo-list {
+  margin-bottom: 3rem;
+}
+
+.add-heading {
+  margin-bottom: 1rem;
+}
+
+.search-input,
+.add-input {
+  font-size: 2rem;
+  background-color: rgb(103, 20, 103);
+  color: rgb(229, 226, 226);
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  border: none;
+  width: 100%;
+}
+
+.search-input:focus,
+.add-input:focus {
+  outline: none;
+  box-shadow: 0 0 6px #ce71cc;
+}
+
+.todo-list {
+  width: 100%;
+  background-color: rgb(140, 18, 147);
+  padding: 2rem 2rem;
+  font-size: 2rem;
+  list-style: none;
+  /* display: flex; */
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.todo-list li {
+  background-color: rgb(204, 27, 213);
+  padding: 1rem;
+  border: 2px solid rgb(88, 15, 91);
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+}
+
+.add-heading {
+  font-size: 1.8rem;
+}
+
+.add-todo-btn {
+  background-color: purple;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: purple;
+  font-size: 2rem;
+}
